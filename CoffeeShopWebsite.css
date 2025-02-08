@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+   
+    background-color: #f5ebe0;
+    color: #3e2723;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    color: white;
+    
+  
+}
+.main{
+    background: url('https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg') no-repeat center center;
+    background-size: cover;
+    image-rendering: high-quality;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+  text-shadow: 2px 2px 5px #8d6e63;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero h1{
+    font-size: 4rem;
+}
+
+.cta-button {
+    background: #8d6e63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Menu Section */
+.menu-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+a:hover{
+    color: antiquewhite;
+}
+#about p{
+    display:flex;
+    text-align: left;   
+}
+.flexing{
+    margin-left: 30px;
+    text-align: right;
+   
+}
+.cflex{
+    display: flex;
+    padding: 5px;
+}
+
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.menuimg{
+    border-radius: 10px;
+}
+.menu-item:hover{
+    box-shadow:2px 2px 10px #3e2723;
+    width: 250px;
+   height:400px;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* About Us Section */
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color:#f8d4cd ;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #8d6e63;
+}
+
+button {
+    background: #8d6e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3e2723;
+    color: white;
+}
